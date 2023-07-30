@@ -1,0 +1,76 @@
+4월 17일(월)
+
+final
+  클래스 앞 : 상속금지
+  멤버변수, 지역변수 앞 : 값 수정 금지
+  멤버 메소드 앞 : 오버라이드 금지
+
+*** Wrapper 클래스
+기초자료형 8개를 객체화 시킨 클래스
+
+byte, short, int, long ==> Byte, Short, Integer, Long
+float, double ==> Float, Double
+char          ==> Character
+boolean       ==> Boolean
+
+
+Exam_01.java
+
+String[] score = {
+"홍길동 100 98.5 75.5",
+"임꺽정 85.5 70.4 70.5",
+"손오공 75.6 88.5 72",
+"저팔계 90 95.5 70.5",
+"사오정 87 88.5 90.5"
+}
+
+** StringBuffer / StringBuilder 차이점
+- StringBuffer는 Thread를 이용한 프로그래밍시 동기화 보장!
+  : Thread 프로그래밍시 StringBuffer를 사용.
+
+- StringBuilder는 동기화를 보장하지 않는다.
+
+*** StringTokenizer
+
+data.split(",")
+
+new StringTokenizer(data)
+
+
+===============
+정수 : 5
+5
+정수 : 1
+6
+정수 : a
+정수 : 1
+7
+정수 : k
+정수 : 2
+9
+정수 : 3
+12
+총 입력 합: 12
+
+
+
+[ 문제 ] 
+0 ~ 99까지 난수를 발생한다.
+정수 배열 10개짜리 준비!
+
+발생된 난수가 3의배수이거나 8의 배수인 경우에 배열에 저장하고
+그렇지 않은 경우 익셉션 처리하여 모든 배열에 데이터를 넣으시오.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
